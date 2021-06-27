@@ -1,4 +1,11 @@
 let degress = 0
+basic.showLeds(`
+    . # # . .
+    # . # . .
+    # # # # #
+    . . # . .
+    . . # . .
+    `)
 basic.forever(function () {
     degress = input.compassHeading()
     if (degress < 45) {
